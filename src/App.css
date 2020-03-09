@@ -1,3 +1,47 @@
+/* .landing {
+  height: 100vh;
+  text-align: center;
+  padding: 0 1rem;
+  position: 'absolute';
+  left: '50%';
+  top: '50%';
+  transform: 'translate(-50%, -50%)'
+}
+
+.landing-wrapper  {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.landing-wrapper-title {
+  font-size: 2rem;
+  margin: 0 0 2rem;
+}
+
+.landing-wrapper-group {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.landing-wrapper-search {
+  -webkit-box-flex: 2;
+  flex: 2 1 auto;
+  margin-right: 1rem;
+}
+
+.landing-wrapper-button {
+  -webkit-box-flex: 1;
+  flex: 1 1 25%;
+} */
+
 .App {
   text-align: center;
 }

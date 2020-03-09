@@ -1,0 +1,212 @@
+
+    .popupStyle {
+      /* z-index: 10;
+      position: absolute; */
+    }
+    .fullscreenControlStyle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 10
+    }
+    .nav-icon-styles {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 5px;
+      max-width: 40px;
+      margin-bottom: 20px;
+    }
+    .scaleControlStyle {
+      position: absolute;
+      bottom: 36;
+      left: 0;
+      padding: 10
+    }
+    .rating-slider {
+      position: absolute;
+      /* text-align: center; */
+      top: 50px;
+      right: 0;
+      max-width: 320px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      padding: 8px;
+      margin: 10px;
+      font-size: 13px;
+      line-height: 1;
+      color: #6b6b76;
+      outline: none;
+    }
+
+    .categories-component {
+      position: absolute;
+      /* text-align: center; */
+      top: 100px;
+      right: 0;
+      padding-left: 0px;
+      max-width: 400px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      padding: 8px;
+      margin: 10px;
+      font-size: 13px;
+      line-height: 1;
+      color: #6b6b76;
+      outline: none;
+    }
+
+    .bottom-nav {
+      /* left: 50vw;
+      right: 20vw;
+      width: 500px; */
+      margin-left: -120px;
+      max-width: 250px;
+      left: 50%;
+      bottom: 25px;
+      z-index: 10;
+      position: absolute;
+    }
+    .test-rule {
+      font-size: xx-large;
+    }
+    .landing-box {
+      color: #fff;
+      height: 100vh;
+      text-align: center;
+      padding: 0 1rem;
+      position: relative;
+      display: flex;
+      box-orient: vertical;
+      box-direction: normal;
+      flex-direction: column;
+      width: 96%;
+      box-align: center;
+      align-items: center;
+      box-pack: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    h1 {
+      color: #fff;
+    }
+    .landing-box-wrapper {
+      display: flex;
+      flex-direction: column;
+      box-orient: vertical;
+      box-direction: normal;
+      box-align: center;
+      align-items: center;
+      max-width: 1000px;
+      padding: 20px;
+      background-color: #202531;
+      border-radius: 20px;
+    }
+    .landing-title {
+      box-sizing: border-box;
+      margin: 0 0 1rem;
+      font-size: 2rem;
+    }
+    .landing-search-group {
+      display: flex;
+      width: 100%;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .landing-input {
+      width: 100%;
+      background: hsla(0, 0%, 100%, .5);
+      border: none;
+      outline: none;
+      font-size: 20px;
+      font-family: inherit;
+      border-radius: 8px;
+      box-sizing: border-box;
+      box-flex: 2;
+      flex: 2 1 auto;
+      margin-right: 1rem;
+    }
+    .landing-search-button {
+      box-flex: 1;
+      flex: 1 1 25%;
+      background: #606b7e;
+      transition: background-color .2s ease-out;
+      border-radius: 8p !important;
+      padding: .75rem 1rem;
+      min-width: 36px;
+      width: 32px;
+      font-size: 18px;
+      text-decoration: none;
+      outline: none;
+      border: none;
+      display: block;
+    }
+    .landing-not-sure {
+      box-flex: 1;
+      flex: 1 1 25%;
+      background: #606b7e;
+      transition: background-color .2s ease-out;
+      border-radius: 8p !important;
+      min-width: 36px;
+      width: 100%;
+      font-size: 18px;
+      text-decoration: none;
+      outline: none;
+      border: none;
+      display: block;
+    }
+    .tile-image {
+      min-height: 100%;
+      min-width: 100%;
+    }
+    .tile-titlebar {
+      padding: 0.5em;
+      background:
+        linear-gradient(to bottom, rgba(0,0,0,0.7) 0% +
+        rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)
+    }
+    .gridlist-root {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #161921;
+      overflow: hidden;
+    }
+    .gridlist-component {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      max-width: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .popup-style {
+      max-width: 345px;
+    }
+    .mapboxgl-popup-content {
+      margin: 25px;
+      background: transparent;
+      color: #fff;
+    }
+    .review-expand-arrow {
+      transform: rotate(0deg);
+      margin-left: auto;
+      margin: none;
+      padding: 0%;
+      width: 20px;
+    }
+
+    .ant-carousel .slick-slide {
+      text-align: center;
+      height: 250px;
+      line-height: 20px;
+      background: #364d79;
+      overflow: hidden;
+    }
+    
+    .ant-carousel .slick-slide h3 {
+      color: #fff;
+    }

@@ -1,19 +1,33 @@
 {
-  "name": "c1challengefrontend",
+  "name": "chowmapper",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.44",
+    "@material-ui/system": "^4.9.3",
+    "antd": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "google-libphonenumber": "^3.2.7",
+    "interactjs": "^1.8.5",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
+    "react-map-gl": "^5.2.3",
+    "react-map-gl-geocoder": "^2.0.11",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-sky": "^1.1.0",
+    "recharts": "^2.0.0-beta.1",
+    "yelp-fusion": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "lint": "standard",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,6 +43,17 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "standard": "^14.3.1",
+    "style-loader": "^1.1.3"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/*",
+      "public/*"
     ]
   }
 }

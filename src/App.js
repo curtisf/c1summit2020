@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'antd/dist/antd.css' // This is here solely because MaterialUI doesn't have a carousel component
+import './components/explore.css'
+import LandingPage from './components/LandingPage'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
+import Explore from './components/Explore'
+import BottomNav from './components/BottomNav'
 
-function App() {
+function App (props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route path='/' exact>
+          <LandingPage />
+          <BottomNav />
+        </Route>
+        <Route path='/explore'>
+          <Explore containerComponent={props.containerComponent} />
+          <BottomNav />
+        </Route>
+      </Switch>
+    </Router>
+  )
 }
 
-export default App;
+export default App
